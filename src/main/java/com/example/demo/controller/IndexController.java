@@ -14,5 +14,9 @@ public class IndexController {
         // 문자 출력
     }
 
-    
+    @GetMapping("/fire")
+    public String fire(){
+        return "views/fire";
+        // 문자 출력
+    }
 }
